@@ -1,0 +1,51 @@
+//
+
+// Source code recreated from a .class file by IntelliJ IDEA
+
+// (powered by FernFlower decompiler)
+
+//
+
+import java.util.Scanner;
+
+public class Main {
+
+public Main() {
+
+}
+
+public static void main(String[] args)
+
+{
+
+Scanner in = new Scanner(System.in);
+
+System.out.print("Enter a\n");
+
+float a = in.nextFloat();
+
+System.out.print("Enter b\n");
+
+float b = in.nextFloat();
+
+if (a == b && b == a) {
+
+System.out.print("These numbers are equall");
+
+}else{
+
+if(a>b){
+
+System.out.print("a is more then b");
+
+}else {
+
+System.out.print("b is more then a");
+
+}
+
+}
+
+}
+
+}
